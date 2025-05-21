@@ -9,8 +9,6 @@ Welcome to the Address Book application built with Spring Boot. This project dem
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
-- [How to Run](#how-to-run)
-- [Next Steps](#next-steps)
 
 ## Overview
 
