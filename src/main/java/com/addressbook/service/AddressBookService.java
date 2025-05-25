@@ -1,6 +1,7 @@
 package com.addressbook.service;
 
 import com.addressbook.dto.AddressBookDTO;
+import com.addressbook.exception.AddressBookException;
 import com.addressbook.model.AddressBook;
 import com.addressbook.repository.AddressBookRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -33,12 +34,10 @@ public class AddressBookService implements IAddressBookService {
 
     @Override
     public AddressBook getById(int id) {
-        log.info("Fetching address with id: {}", id);
-        return repository.findById(id).orElseThrow(() -> {
-            log.error("Address not found for id: {}", id);
-            return new RuntimeException("Address not found");
-        });
+        return repository.findById(id)
+                .orElseThrow(() -> new AddressBookException("Address not found with id: " + id
     }
+
 
     @Override
     public AddressBook update(int id, AddressBookDTO dto) {
