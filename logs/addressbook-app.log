@@ -40,3 +40,45 @@
 2025-05-25T21:48:03.525+05:30  INFO 7576 --- [Address_Book] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-05-25T21:48:03.527+05:30  INFO 7576 --- [Address_Book] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-05-25T21:48:03.532+05:30  INFO 7576 --- [Address_Book] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-25T21:58:59.321+05:30  INFO 10732 --- [Address_Book] [restartedMain] com.addressbook.AddressBookApplication   : Starting AddressBookApplication using Java 21.0.6 with PID 10732 (C:\Users\Sriii\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\Address_Book\target\classes started by Sriii in C:\Users\Sriii\Documents\workspace-spring-tools-for-eclipse-4.30.0.RELEASE\Address_Book)
+2025-05-25T21:58:59.323+05:30  INFO 10732 --- [Address_Book] [restartedMain] com.addressbook.AddressBookApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-05-25T21:58:59.355+05:30  INFO 10732 --- [Address_Book] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-25T21:58:59.355+05:30  INFO 10732 --- [Address_Book] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-25T21:58:59.810+05:30  INFO 10732 --- [Address_Book] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-25T21:58:59.856+05:30  INFO 10732 --- [Address_Book] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-05-25T21:59:00.191+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-25T21:59:00.202+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-25T21:59:00.202+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-25T21:59:00.234+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-25T21:59:00.234+05:30  INFO 10732 --- [Address_Book] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 878 ms
+2025-05-25T21:59:00.345+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-25T21:59:00.382+05:30  INFO 10732 --- [Address_Book] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-25T21:59:00.407+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-25T21:59:00.610+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-25T21:59:00.631+05:30  INFO 10732 --- [Address_Book] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-25T21:59:00.907+05:30  INFO 10732 --- [Address_Book] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50c8c186
+2025-05-25T21:59:00.909+05:30  INFO 10732 --- [Address_Book] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-25T21:59:00.945+05:30  WARN 10732 --- [Address_Book] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-25T21:59:00.946+05:30  WARN 10732 --- [Address_Book] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-05-25T21:59:00.958+05:30  INFO 10732 --- [Address_Book] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-25T21:59:01.518+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-25T21:59:01.558+05:30  INFO 10732 --- [Address_Book] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:59:01.739+05:30  WARN 10732 --- [Address_Book] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-25T21:59:01.770+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-25T21:59:01.964+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/addressbookdb'
+2025-05-25T21:59:02.017+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-25T21:59:02.047+05:30  INFO 10732 --- [Address_Book] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-25T21:59:02.054+05:30  INFO 10732 --- [Address_Book] [restartedMain] com.addressbook.AddressBookApplication   : Started AddressBookApplication in 3.052 seconds (process running for 3.574)
+2025-05-25T21:59:04.953+05:30  INFO 10732 --- [Address_Book] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-05-25T21:59:04.955+05:30  INFO 10732 --- [Address_Book] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-25T21:59:04.965+05:30  INFO 10732 --- [Address_Book] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-25T21:59:04.968+05:30  INFO 10732 --- [Address_Book] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-25T21:59:04.971+05:30  INFO 10732 --- [Address_Book] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-25T21:59:04.976+05:30  INFO 10732 --- [Address_Book] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

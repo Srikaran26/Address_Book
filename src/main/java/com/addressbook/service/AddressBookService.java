@@ -1,6 +1,7 @@
 package com.addressbook.service;
 
 import com.addressbook.dto.AddressBookDTO;
+import com.addressbook.exception.AddressBookException;
 import com.addressbook.model.AddressBook;
 import com.addressbook.repository.AddressBookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,8 +30,10 @@ public class AddressBookService implements IAddressBookService {
 
     @Override
     public AddressBook getById(int id) {
-        return repository.findById(id).orElseThrow();
+        return repository.findById(id)
+                .orElseThrow(() -> new AddressBookException("Address not found with id: " + id));
     }
+
 
     @Override
     public AddressBook update(int id, AddressBookDTO dto) {
